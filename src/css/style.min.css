@@ -1,0 +1,1 @@
+*{box-sizing:border-box}.container{position:relative;max-width:1140px;margin:0 auto}.container__wrap{width:100%;background-color:red}@media (max-width:1200px){.container{max-width:960px}}@media (max-width:992px){.container{max-width:720px}}@media (max-width:768px){.container{max-width:540px}}@media (max-width:576px){.container{max-width:auto}}
