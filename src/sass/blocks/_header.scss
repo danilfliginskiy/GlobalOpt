@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 9px;
+    &__logo{
+        width: 96px;
+        height: 100px;
+    }
+    &__menu{
+        display: flex;
+        list-style: none;
+        margin-left: -30px;
+    }
+    &__item{
+        padding: 0 15px;
+        border-right: 1px dotted #fff;
+        &:last-child{
+            border: none;
+        }
+    }
+    &__link{
+        text-decoration: none;
+        height: 14px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        padding-bottom: 5px;
+        &:hover{
+            color: $main-color;
+            border-bottom: 1px $main-color solid;
+        }
+    }
+}

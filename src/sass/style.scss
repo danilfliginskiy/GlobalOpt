@@ -1,17 +1,21 @@
 @import "base/variables";
 @import "base/mixins";
 
+@import "libs/normalize";
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/contacts";
+
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     position: relative;
     max-width: 1140px;
     margin: 0 auto;
-    &__wrap {
-        width: 100%;
-        background-color: red;
-    }
 }
 
 @media (max-width: 1200px){
