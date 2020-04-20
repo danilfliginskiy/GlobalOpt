@@ -1,0 +1,28 @@
+.advantages {
+    min-height: 590px;
+    padding: 58px 0 18px 0;
+    background: url("../../images/advantages/background.jpg") center center/cover no-repeat;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 32px;
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 36px;
+        &-img {
+            display: block;
+            max-width: 56px;
+            margin-top: 5px;
+        }
+    }
+    &__wrapper {
+        width: 450px;
+        margin-left: 15px;
+    }
+}
+.descr {
+    margin-top: 14px;
+}

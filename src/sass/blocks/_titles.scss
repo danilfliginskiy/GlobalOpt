@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &_mini-left {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+    }
+    &_mini {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+.subtitle {
+    color: $second-color;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+}
+.descr {
+    color: $second-color;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
