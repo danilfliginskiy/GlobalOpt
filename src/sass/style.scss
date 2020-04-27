@@ -9,6 +9,10 @@
 @import "blocks/contacts";
 @import "blocks/titles";
 @import "blocks/advantages";
+@import "blocks/reasons";
+@import "blocks/agent";
+@import "blocks/hamburger";
+@import "blocks/media";
 
 *{
     box-sizing: border-box;
@@ -26,19 +30,19 @@
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
     .container{
         max-width: 720px;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .container{
         max-width: 540px;
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 575px){
     .container{
         max-width: auto;
     }

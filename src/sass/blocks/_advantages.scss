@@ -4,12 +4,13 @@
     background: url("../../images/advantages/background.jpg") center center/cover no-repeat;
     &__items {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         margin-top: 32px;
     }
     &__item {
         display: flex;
+        width: 45%;
         align-items: flex-start;
         margin-bottom: 36px;
         &-img {
@@ -19,7 +20,6 @@
         }
     }
     &__wrapper {
-        width: 450px;
         margin-left: 15px;
     }
 }

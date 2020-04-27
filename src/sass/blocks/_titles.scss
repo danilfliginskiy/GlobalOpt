@@ -16,16 +16,39 @@
         font-weight: 700;
         text-align: center;
     }
+    &_white {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 26px;
+        text-align: center;
+    }
 }
 .subtitle {
     color: $second-color;
     font-size: 21px;
     font-weight: 300;
     text-align: center;
+    margin-top: 17px;
+    &_white {
+        color: #ffffff;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        text-align: center;
+    }
 }
 .descr {
     color: $second-color;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
+}
+.divider {
+    display: block;
+    margin: 0 auto;
+    background-color: $main-color;
+    width: 22%;
+    height: 1px;
+    border: none;
+    margin-top: 20px;
 }

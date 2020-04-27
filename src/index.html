@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/hamburger.css">
     <title>GlobalOpt</title>
 </head>
 <body>
@@ -24,10 +25,15 @@
                     <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
                     <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
             </nav>
             <div class="contacts">
                 <div class="contacts__wrapper">
-                    Есть вопросы?
+                    <span>Есть вопросы?</span>
                     <a href="tel:+79614437390" class="contacts__phone">+7 (926) 423 01 00</a>
                 </div>
                 <button class="button">Перезвоните мне</button>
@@ -145,7 +151,53 @@
     </div>
 </section>
 
+<section class="reasons">
+    <div class="container">
+        <div class="title">Наша работа - больше чем просто доставка</div>
+        <hr class="divider">
+        <div class="subtitle">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза и ваших требований по срокам и бюджету.</div>
+        <div class="reasons__items">
 
+            <div class="reasons__item">
+                <img src="images/reasons/box-in-hand.jpg" alt="box in hand" class="reasons__img">
+                <div class="title_mini">Страховка груза</div>
+                <div class="descr">Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.</div>
+            </div>
+            <!-- /.reasons__item -->
+
+            <div class="reasons__item">
+                <img src="images/reasons/ship.jpg" alt="ship" class="reasons__img">
+                <div class="title_mini">Логистика последней мили</div>
+                <div class="descr">Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.</div>
+            </div>
+            <!-- /.reasons__item -->
+
+            <div class="reasons__item">
+                <img src="images/reasons/man-sees.jpg" alt="man" class="reasons__img">
+                <div class="title_mini">Мы всегда смотрим вперед</div>
+                <div class="descr">Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях. </div>
+            </div>
+            <!-- /.reasons__item -->
+
+        </div>
+        <!-- /.reasons__items -->
+    </div>
+</section>
+
+<section class="agent">
+    <div class="container">
+        <div class="agent__item">
+            <img src="images/agent/agent.png" alt="agent" class="agent__img">
+        </div>
+        <!-- /.agent__item -->
+        <div class="title_white">Агент в Китае</div>
+        <div class="subtitle_white">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</div>
+    </div>
+</section>
+
+
+
+<script src="js/script.js"></script>
 
 </body>
 </html>

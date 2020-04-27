@@ -1,0 +1,372 @@
+@media (max-width: 1200px){
+    .promo {
+        padding-bottom: 30px;
+        .header {
+            &__logo {
+                height: 85px;
+                width: 85px;
+                margin-left: 10px;
+            }
+            &__menu {
+                margin-left: -45px;
+            }
+            &__item {
+                padding: 0 10px;
+            }
+            &__link {
+                font-size: 14px;
+            }
+        }
+        .contacts {
+            &__phone {
+                font-size: 16px;
+            }
+            .button {
+                width: 125px;
+                height: 40px;
+                margin-left: 14px;
+                font-size: 11px;
+            }
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__subtitle {
+            font-size: 60px;
+        }
+        &__descr {
+            font-size: 36px;
+        }
+        &__divider {
+            width: 80%;
+        }
+        &__item {
+            width: 225px;
+            &-descr {
+                font-size: 14px;
+            }
+        }
+    }
+    .advantages {
+        padding: 30px 0 30px 0;
+    }
+    .reasons {
+        padding: 30px 0 30px 0;
+        &__items {
+            justify-content: center;
+            margin: 0;
+        }
+        &__item {
+            width: 44%;
+            margin: 0 3% 0 3%;
+            margin-top: 37px;
+            .title_mini {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .promo {
+        .header {
+            &__logo {
+                height: 70px;
+                width: 70px;
+            }
+            &__menu {
+                margin-left: -30px;
+            }
+            &__item {
+                padding: 0 7px;
+            }
+            &__link {
+                font-size: 13px;
+            }
+        }
+        .contacts {
+            flex-direction: column;
+            span {
+                display: none;
+            }
+            &__phone {
+                text-align: right;
+                font-size: 14px;
+                margin: 0 5px 5px 0;
+            }
+            .button {
+                height: 35px;
+            }
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__subtitle {
+            font-size: 50px;
+        }
+        &__descr {
+            font-size: 28px;
+        }
+        &__item {
+            width: 160px;
+            &-descr {
+                font-size: 13px;
+            }
+        }
+        .button_main {
+            width: 190px;
+            height: 50px;
+            font-size: 14px;
+        }
+    }
+    .advantages {
+        padding: 25px 0 25px 0;
+        .title {
+            font-size: 24px;
+        }
+        &__item {
+            .title_mini-left {
+                font-size: 14px;
+            }
+            .descr {
+                font-size: 13px;
+                margin-top: 8px;
+                line-height: 18px;
+            }
+            &-img {
+                max-width: 50px;
+            }
+        }
+    }
+    .reasons {
+        padding: 25px 0 25px 0;
+        .title {
+            font-size: 25px;
+        }
+        .divider {
+            margin-top: 14px;
+        }
+        .subtitle {
+            margin-top: 14px;
+            font-size: 18px;
+        }
+        &__item {
+            .title_mini {
+                margin-top: 12px;
+            }
+            .descr {
+                margin-top: 10px;
+                line-height: 19px;
+            }
+        }
+    }
+    .agent {
+        min-height: 230px;
+        padding: 25px 0 25px 0;
+        &__item {
+            height: 90px;
+            width: 90px;
+        }
+        &__img {
+            height: 45px;
+            width: 45px;
+        }
+        .title_white {
+            font-size: 24px;
+            margin-top: 18px;
+        }
+        .subtitle_white {
+            font-size: 18px;
+            margin-top: 18px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .promo {
+        padding-top: 10px;
+        .header {
+            display: flex;
+            justify-content: left;
+            &__logo {
+                margin-right: 30px;
+            }
+            &__menu {
+                display: flex;
+                position: fixed;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                overflow: hidden;
+                height: 100vh;
+                top: 0;
+                left: -100%;
+                background-color: rgba(0, 0, 0, .95);
+                padding: 20px 15px;
+                transition: 0.8s all;
+                z-index: 10;
+                &_active{
+                    left: 0;
+                }
+            }
+            &__item {
+                border-right: none;
+                margin-top: 30px;
+            }
+            &__link {
+                font-size: 18px;
+            }
+            .hamburger {
+                position: absolute;
+                top: 17px;
+                right: 10px;
+                display: block;
+                .line {
+                    padding: 2.75px;
+                    width: 50px;
+                }
+            }
+            .contacts {
+                flex-direction: row;
+                &__phone {
+                    line-height: 40px;
+                }
+                .button {
+                    width: 140px;
+                    height: 40px;
+                    font-size: 12px;
+                }
+            }
+        }
+        &__title {
+            font-size: 15px;
+        }
+        &__subtitle {
+            font-size: 36px;
+        }
+        &__descr {
+            font-size: 22px;
+        }
+        &__divider {
+            margin-top: 20px;
+        }
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 16px;
+        }
+        &__item {
+            width: 200px;
+            margin: 10px;
+        }
+    }
+    .advantages {
+        padding: 10px 0 10px 0;
+        .title {
+            font-size: 22px;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+    .reasons {
+        padding: 20px 0 20px 0;
+        .title {
+            font-size: 22px;
+        }
+        .subtitle {
+            font-size: 16px;
+        }
+        &__item {
+            margin-top: 20px;
+            .descr {
+                line-height: 16px;
+                font-size: 13px;
+            }
+        }
+    }
+    .agent {
+        &__item {
+            width: 80px;
+            height: 80px;
+        }
+        &__img {
+            width: 40px;
+            height: 40px;
+        }
+        .title_white {
+            margin-top: 14px;
+            font-size: 18px;
+        }
+        .subtitle_white {
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 14px;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .promo {
+        padding: 10px 5px 20px 20px;
+        .header {
+            &__logo {
+                height: 60px;
+                width: 60px;
+                margin-right: 10px;
+            }
+            &__menu {
+                width: 70%;
+            }
+            &__link {
+                font-size: 16px;
+            }
+            .contacts {
+                flex-direction: column;
+                &__phone {
+                    line-height: 20px;
+                }
+                .button {
+                    width: 130px;
+                    height: 35px;
+                    font-size: 11px;
+                }
+            }
+            .hamburger {
+                right: 0;
+                .line {
+                    width: 45px;
+                    &::after {
+                        height: 6.5px;
+                    }
+                }
+            }
+        }
+        &__subtitle {
+            font-size: 30px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .advantages {
+        padding: 10px 10px 20px 5px;
+        .title {
+            font-size: 19px;
+        }
+    }
+    .reasons {
+        padding: 20px 10px 20px 10px;
+        .title {
+            font-size: 19px;
+        }
+        .subtitle {
+            font-size: 14px;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+}

@@ -34,29 +34,29 @@ gulp.task('watch', function() {
     gulp.watch("src/*.html").on('change', gulp.parallel('html'));
 })
 
-gulp.task('html', function(){
+gulp.task('html', function() {
     return gulp.src("src/*.html")
         .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest("dist/"))
 });
 
-gulp.task('scripts', function(){
-    return gulp.src("src/js/**/*.js")
+gulp.task('scripts', function() {
+    return gulp.src("src/js/*.*")
         .pipe(gulp.dest("dist/js"))
 });
 
-gulp.task('fonts', function(){
+gulp.task('fonts', function() {
     return gulp.src("src/fonts/**/*")
         .pipe(gulp.dest("dist/fonts"))
 });
 
-gulp.task('images', function(){
+gulp.task('images', function() {
     return gulp.src("src/images/**/*")
         .pipe(imagemin())
         .pipe(gulp.dest("dist/images"))
 });
 
-gulp.task('mailer', function(){
+gulp.task('mailer', function() {
     return gulp.src("src/mailer/**/*")
         .pipe(gulp.dest("dist/mailer"))
 });
