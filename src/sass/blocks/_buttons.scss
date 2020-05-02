@@ -9,6 +9,8 @@
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
     &_main {
         display: block;
         width: 230px;
@@ -16,5 +18,17 @@
         font-size: 15px;
         font-weight: 500;
         margin: 39px auto 0 auto;
+    }
+    &_price {
+        display: block;
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 25px auto 25px auto;
+    }
+    &_price-back {
+        width: 160px;
+        height: 45px;
     }
 }

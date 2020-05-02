@@ -119,37 +119,34 @@
             font-size: 14px;
         }
     }
+    .title {
+        font-size: 24px;
+    }
+    .title_mini-left {
+        font-size: 14px;
+    }
+    .descr {
+        font-size: 13px;
+        margin-top: 8px;
+        line-height: 18px;
+    }
     .advantages {
         padding: 25px 0 25px 0;
-        .title {
-            font-size: 24px;
-        }
         &__item {
-            .title_mini-left {
-                font-size: 14px;
-            }
-            .descr {
-                font-size: 13px;
-                margin-top: 8px;
-                line-height: 18px;
-            }
             &-img {
                 max-width: 50px;
             }
         }
     }
+    .divider {
+        margin-top: 14px;
+    }
+    .subtitle {
+        margin-top: 14px;
+        font-size: 18px;
+    }
     .reasons {
         padding: 25px 0 25px 0;
-        .title {
-            font-size: 25px;
-        }
-        .divider {
-            margin-top: 14px;
-        }
-        .subtitle {
-            margin-top: 14px;
-            font-size: 18px;
-        }
         &__item {
             .title_mini {
                 margin-top: 12px;
@@ -159,6 +156,15 @@
                 line-height: 19px;
             }
         }
+    }
+    
+    .title_white {
+        font-size: 24px;
+        margin-top: 18px;
+    }
+    .subtitle_white {
+        font-size: 18px;
+        margin-top: 18px;
     }
     .agent {
         min-height: 230px;
@@ -170,14 +176,6 @@
         &__img {
             height: 45px;
             width: 45px;
-        }
-        .title_white {
-            font-size: 24px;
-            margin-top: 18px;
-        }
-        .subtitle_white {
-            font-size: 18px;
-            margin-top: 18px;
         }
     }
 }
@@ -203,8 +201,9 @@
                 top: 0;
                 left: -100%;
                 background-color: rgba(0, 0, 0, .95);
-                padding: 20px 15px;
                 transition: 0.8s all;
+                padding: 20px 15px;
+                margin: 0;
                 z-index: 10;
                 &_active{
                     left: 0;
@@ -261,29 +260,26 @@
             margin: 10px;
         }
     }
+    .title {
+        font-size: 22px;
+    }
     .advantages {
         padding: 10px 0 10px 0;
-        .title {
-            font-size: 22px;
-        }
         &__item {
             width: 100%;
         }
     }
+    .subtitle {
+        font-size: 16px;
+    }
+    .descr {
+        line-height: 16px;
+        font-size: 13px;
+    }
     .reasons {
         padding: 20px 0 20px 0;
-        .title {
-            font-size: 22px;
-        }
-        .subtitle {
-            font-size: 16px;
-        }
         &__item {
             margin-top: 20px;
-            .descr {
-                line-height: 16px;
-                font-size: 13px;
-            }
         }
     }
     .agent {
@@ -295,21 +291,21 @@
             width: 40px;
             height: 40px;
         }
-        .title_white {
-            margin-top: 14px;
-            font-size: 18px;
-        }
-        .subtitle_white {
-            font-size: 14px;
-            line-height: 20px;
-            margin-top: 14px;
-        }
+    }
+    .title_white {
+        margin-top: 14px;
+        font-size: 18px;
+    }
+    .subtitle_white {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 14px;
     }
 }
 
 @media (max-width: 575px){
     .promo {
-        padding: 10px 5px 20px 20px;
+        padding: 10px 5px 20px 5px;
         .header {
             &__logo {
                 height: 60px;
@@ -319,8 +315,11 @@
             &__menu {
                 width: 70%;
             }
+            &__item {
+                margin-top: 20px;
+            }
             &__link {
-                font-size: 16px;
+                font-size: 15px;
             }
             .contacts {
                 flex-direction: column;
@@ -352,19 +351,16 @@
         }
     }
     .advantages {
-        padding: 10px 10px 20px 5px;
-        .title {
-            font-size: 19px;
-        }
+        padding: 10px 10px 20px 10px;
+    }
+    .title {
+        font-size: 19px;
+    }
+    .subtitle {
+        font-size: 14px;
     }
     .reasons {
         padding: 20px 10px 20px 10px;
-        .title {
-            font-size: 19px;
-        }
-        .subtitle {
-            font-size: 14px;
-        }
         &__item {
             width: 100%;
         }
