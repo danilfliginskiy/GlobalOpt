@@ -21,14 +21,11 @@
     }
     &_price {
         display: block;
-        width: 160px;
-        height: 45px;
         font-size: 12px;
         font-weight: 400;
         margin: 25px auto 25px auto;
     }
     &_price-back {
-        width: 160px;
-        height: 45px;
+        margin: 10px auto 10px auto;
     }
 }

@@ -65,6 +65,11 @@
             }
         }
     }
+    .prices {
+        &__item {
+            width: 23%;
+        }
+    }
 }
 
 @media (max-width: 991px){
@@ -176,6 +181,16 @@
         &__img {
             height: 45px;
             width: 45px;
+        }
+    }
+    .prices {
+        padding: 25px 0 25px 0;
+        &__items {
+            justify-content: center;
+        }
+        &__item {
+            width: 40%;
+            margin: 20px;
         }
     }
 }
@@ -301,6 +316,17 @@
         line-height: 20px;
         margin-top: 14px;
     }
+    .prices {
+        padding: 20px 0 20px 0;
+        &__item {
+            width: 40%;
+            margin: 10px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 18px;
+        }
+    }
 }
 
 @media (max-width: 575px){
@@ -363,6 +389,17 @@
         padding: 20px 10px 20px 10px;
         &__item {
             width: 100%;
+        }
+    }
+    .prices {
+        padding: 20px 10px 20px 10px;
+        &__item {
+            width: 100%;
+            margin: 10px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
         }
     }
 }
