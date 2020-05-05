@@ -25,13 +25,14 @@ gulp.task('styles', function() {
         .pipe(rename({suffix: '.min', prefix: ''}))
         .pipe(autoprefixer())
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest("dist/css"))
+        .pipe(gulp.dest("dist/css/style"))
         .pipe(browserSync.stream());
 });
 
 gulp.task('watch', function() {
     gulp.watch("src/sass/**/*.+(scss|sass|css)", gulp.parallel('styles'));
     gulp.watch("src/*.html").on('change', gulp.parallel('html'));
+    gulp.watch("src/js/*.js").on('change', gulp.parallel('scripts'));
 })
 
 gulp.task('html', function() {

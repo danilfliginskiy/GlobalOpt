@@ -1,0 +1,41 @@
+.consultation {
+    padding: 35px 0 58px 0;
+    &__wrapper {
+        position: relative;
+        margin-top: 71px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__img-wrapper {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -50px;
+        width: 122px;
+        height: 100px;
+        background-color: #fff;
+    }
+    &__img-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+    }
+    &__img {
+        width: 60px;
+        height: 60px;
+    }
+    &__button-wrapper {
+        position: absolute;
+        bottom: -21px;
+        display: flex;
+        justify-content: center;
+        width: 210px;
+        background-color: #fff;
+    }
+}
