@@ -1,0 +1,31 @@
+.scheme {
+    min-height: 455px;
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 260px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 38px 12px 0 12px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .title_mini {
+        margin-top: 8px;
+    }
+    .descr {
+        margin-top: 8px;
+        text-align: center;
+    }
+}

@@ -1,4 +1,129 @@
-@media (max-width: 1200px){
+//отдельный адаптив для слайдера
+
+@media (max-width: 1600px) {
+    .carousel {
+        &__item {
+            width: 350px !important;
+        }
+        &__img {
+            width: 85px;
+            height: 85px;
+        }
+        .slick-center {
+            transform: scale(1.2) translateY(15%);
+        }
+        .descr {
+            font-size: 13px;
+            line-height: 20px;
+        }
+    }
+}
+@media (max-width: 1290px) {
+    .carousel {
+        .slick-prev {
+            width: 17px;
+            height: 35px;
+            left: 43%;
+        }
+        .slick-next {
+            width: 17px;
+            height: 35px;
+            right: 43%;
+        }
+        &__item {
+            width: 300px !important;
+        }
+        .descr {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+@media (max-width: 1100px) {
+    .carousel {
+        &__item {
+            width: 250px !important;
+        }
+        .descr {
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .slick-prev {
+            left: 42%;
+        }
+        .slick-next {
+            right: 42%;
+        }
+    }
+}
+@media (max-width: 951px) {
+    .reviews {
+        padding-bottom: 0;
+        min-height: 450px;
+    }
+    .carousel {
+        &__item {
+            width: 20% !important;
+            max-height: 200px;
+        }
+        &__img {
+            width: 100px;
+            height: 100px;
+        }
+        .descr {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .slick-arrow {
+            top: 45%;
+        }
+        .slick-prev {
+            width: 27px;
+            height: 50px;
+            left: 3%;
+        }
+        .slick-next {
+            width: 27px;
+            height: 50px;
+            right: 3%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        &__item {
+            max-height: 250px;
+        }
+        .slick-prev {
+            width: 20px;
+            height: 40px;
+        }
+        .slick-next {
+            width: 20px;
+            height: 40px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .carousel {
+        &__item {
+            width: 18% !important;
+            max-height: 300px;
+        }
+        &__img {
+            width: 80px;
+            height: 80px;
+        }
+        .descr {
+            font-size: 13px;
+            line-height: 18px;
+        }
+    }
+}
+
+//основные стили
+
+@media (max-width: 1200px) {
     .promo {
         padding-bottom: 30px;
         .header {
@@ -70,7 +195,20 @@
             width: 23%;
         }
     }
-
+    .scheme {
+        &__items {
+            justify-content: space-around;
+        }
+        &__item {
+            width: 230px;
+            margin: 0;
+            margin-top: 38px;
+        }
+        .descr {
+            font-size: 13px;
+            line-height: 20px;
+        }
+    }
 }
 
 @media (max-width: 991px){
@@ -210,6 +348,14 @@
             height: 45px;
             width: 45px;
         }
+    }
+    .scheme {
+        &__item {
+            width: 220px;
+        }
+    }
+    .reviews {
+        padding: 25px 0 25px 0;
     }
 }
 
@@ -362,6 +508,15 @@
             height: 40px;
         }
     }
+    .scheme {
+        padding: 20px 10px 20px 10px;
+        &__item {
+            width: 45%;
+        }
+    }
+    .reviews {
+        padding: 20px 10px 20px 10px;
+    }
 }
 
 @media (max-width: 575px){
@@ -412,7 +567,17 @@
         }
     }
     .advantages {
-        padding: 10px 10px 20px 10px;
+        padding: 10px 10px 0 0;
+        &__item {
+            flex-direction: column;
+            &-img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__wrapper {
+            margin-top: 10px;
+        }
     }
     .title {
         font-size: 19px;
@@ -439,5 +604,10 @@
     }
     .consultation {
         padding: 30px 10px;
+    }
+    .scheme {
+        &__item {
+            width: 100%;
+        }
     }
 }

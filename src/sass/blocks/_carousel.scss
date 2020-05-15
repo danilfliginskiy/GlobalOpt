@@ -1,0 +1,52 @@
+.carousel {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    .slick-arrow {
+        position: absolute;
+        top: 60px;
+        z-index: 10;
+        font-size: 0;
+        border: none;
+    }
+    .slick-prev {
+        width: 20px;
+        height: 40px;
+        left: 44%;
+        background: url('../../images/reviews/arrows.svg') center center/cover no-repeat;
+    }
+    .slick-next {
+        right: 44%;
+        width: 20px;
+        height: 40px;
+        background: url('../../images/reviews/arrows2.svg') center center/cover no-repeat
+    }
+    &__item {
+        width: 400px !important;
+        height: 350px;
+        margin: 0 auto;
+        opacity: 0.4;
+        transition: all linear 1s;
+    }
+    .slick-center {
+        opacity: 1;
+        transform: scale(1.2) translateY(11%);
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        width: 115px;
+        height: 115px;
+        border-radius: 100%;
+    }
+    &__wrapper {
+        margin-top: 10px;
+    }
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
+    display: flex;
+}

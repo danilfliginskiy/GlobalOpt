@@ -16,11 +16,15 @@
 @import "blocks/consultation";
 @import "blocks/forms";
 @import "blocks/manager";
+@import "blocks/scheme";
+@import "blocks/reviews";
+@import "blocks/carousel";
 @import "blocks/media";
 
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    outline: none;
 }
 .container {
     position: relative;

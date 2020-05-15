@@ -23,6 +23,12 @@
         text-align: center;
         margin-top: 20px;
     }
+    &_black {
+        color: $second-color;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
 }
 .subtitle {
     color: $second-color;
