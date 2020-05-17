@@ -209,6 +209,16 @@
             line-height: 20px;
         }
     }
+    .questions {
+        .feed-form_textarea {
+            input {
+                width: 230px;
+            }
+            textarea {
+                width: 710px;
+            }
+        }
+    }
 }
 
 @media (max-width: 991px){
@@ -356,6 +366,16 @@
     }
     .reviews {
         padding: 25px 0 25px 0;
+    }
+    .questions {
+        .feed-form_textarea {
+            input {
+                width: 180px;
+            }
+            textarea {
+                width: 555px;
+            }
+        }
     }
 }
 
@@ -517,6 +537,21 @@
     .reviews {
         padding: 20px 10px 20px 10px;
     }
+    .questions {
+        padding: 20px 10px 20px 10px;
+        &__wrapper {
+            min-height: 400px;
+        }
+        .feed-form_textarea {
+            input {
+                width: 80%;
+            }
+            textarea {
+                width: 80%;
+                margin-top: 15px;
+            }
+        }
+    }
 }
 
 @media (max-width: 575px){
@@ -608,6 +643,14 @@
     .scheme {
         &__item {
             width: 100%;
+        }
+    }
+    .questions {
+        &__title {
+            font-size: 16px;
+        }
+        &__subtitle {
+            font-size: 13px;
         }
     }
 }

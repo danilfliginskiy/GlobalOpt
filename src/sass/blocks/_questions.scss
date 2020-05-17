@@ -1,0 +1,30 @@
+.questions {
+    min-height: 440px;
+    padding: 62px 0 80px 0;
+    background: url('../../images/questions/background.jpg') center (center/cover) no-repeat;
+    &__wrapper {
+        min-height: 300px;
+        width: 80%;
+        background-color: rgba(255, 255, 255, .7);
+        margin: 0 auto;
+    }
+    &__text-wrapper {
+        padding: 20px 0 20px 0;
+        height: 70px;
+        background-color: #25333c;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
