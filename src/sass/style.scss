@@ -20,12 +20,23 @@
 @import "blocks/reviews";
 @import "blocks/carousel";
 @import "blocks/questions";
+@import "blocks/map";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+@import "blocks/select";
 @import "blocks/media";
 
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     outline: none;
+}
+body {
+    position: relative;
+}
+input, a {
+    cursor: pointer;
 }
 .container {
     position: relative;

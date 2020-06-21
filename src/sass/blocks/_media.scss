@@ -142,17 +142,6 @@
                 font-size: 14px;
             }
         }
-        .contacts {
-            &__phone {
-                font-size: 16px;
-            }
-            .button {
-                width: 125px;
-                height: 40px;
-                margin-left: 14px;
-                font-size: 11px;
-            }
-        }
         &__title {
             font-size: 20px;
         }
@@ -170,6 +159,17 @@
             &-descr {
                 font-size: 14px;
             }
+        }
+    }
+    .contacts {
+        &__phone {
+            font-size: 16px;
+        }
+        .button {
+            width: 125px;
+            height: 40px;
+            margin-left: 14px;
+            font-size: 11px;
         }
     }
     .advantages {
@@ -217,6 +217,34 @@
             textarea {
                 width: 710px;
             }
+        }
+    }
+    .map {
+        height: 400px;
+    }
+    .footer {
+        &__title {
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            span {
+                display: none;
+            }
+            &__phone {
+                font-size: 16px;
+            }
+            .button {
+                width: 140px;
+                height: 40px;
+                margin-top: 3px;
+                font-size: 11px;
+            }
+        }
+        &__privacy {
+            margin-left: -100px;
         }
     }
 }
@@ -346,6 +374,11 @@
         input {
             width: 210px;
         }
+        &_modal {
+            input {
+                width: 90%;
+            }
+        }
     }
     .manager {
         min-height: 230px;
@@ -371,11 +404,49 @@
         .feed-form_textarea {
             input {
                 width: 180px;
+                font-size: 12px;
             }
             textarea {
                 width: 555px;
             }
         }
+    }
+    .footer {
+        &__logo-link img {
+            width: 65px;
+            height: 65px;
+        }
+        &__logo-link {
+            height: 65px;
+            width: 65px;
+        }
+        &__title {
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            span {
+                display: none;
+            }
+            &__phone {
+                font-size: 16px;
+            }
+            .button {
+                width: 140px;
+                height: 40px;
+                margin-top: 3px;
+                font-size: 11px;
+            }
+        }
+        &__privacy {
+            margin-left: -100px;
+        }
+    }
+    .pageup {
+        right: 20px;
+        bottom: 20px;
     }
 }
 
@@ -552,6 +623,93 @@
             }
         }
     }
+    .footer {
+        &__logo-link img {
+            width: 55px;
+            height: 55px;
+        }
+        &__logo-link {
+            height: 55px;
+            width: 55px;
+        }
+        &__title {
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            span {
+                display: none;
+            }
+            &__phone {
+                font-size: 16px;
+            }
+            .button {
+                width: 140px;
+                height: 40px;
+                margin-top: 3px;
+                font-size: 11px;
+            }
+        }
+        &__privacy {
+            margin-left: 0px;
+        }
+    }
+    .pageup {
+        bottom: 100px;
+        i {
+            font-size: 50px;
+            line-height: 50px;
+        }
+    }
+    .modal {
+        &__input {
+            font-size: 12px;
+            padding-right: 18px;
+        }
+    }
+    .select {
+        width: 80%;
+    }
+    #payment {
+        min-height: 470px;
+        .feed-form {
+            .error {
+                &:nth-child(1) {
+                    margin-top: 50px;
+                }
+                &:nth-child(8) {
+                    margin-bottom: -15px;
+                }
+            }
+        }
+    }
+    .feed-form {
+        .error {
+            margin-top: -2px;
+        }
+        label.error {
+            margin-top: 3px;
+        }
+    }
+    #consultation-form,
+    #questions-form {
+        min-height: 320px;
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            width: 80%;
+            .error {
+                margin-top: 10px;
+            }
+            label.error {
+                margin-top: 3px;
+            }
+        }
+    }
 }
 
 @media (max-width: 575px){
@@ -651,6 +809,79 @@
         }
         &__subtitle {
             font-size: 13px;
+        }
+    }
+    .map {
+        height: 300px;
+    }
+    .footer {
+        &__wrapper-top {
+            flex-direction: column;
+        }
+        .contacts {
+            margin-top: 10px;
+            flex-direction: row;
+            &__wrapper {
+                span {
+                    display: inline;
+                }
+            }
+            &__phone {
+                font-size: 15px;
+            }
+            .button {
+                margin-top: 5px;
+            }
+        }
+        &__wrapper-bottom {
+            flex-direction: column;
+        }
+        &__copyright {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        &__privacy {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        &__creater {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    }
+    .modal {
+        width: 285px;
+        &__title {
+            font-size: 15px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+    .feed-form {
+        &_modal {
+            margin-top: 30px;
+            select {
+                width: 100%;
+                padding-left: 15px;
+                font-size: 12px;
+            }
+            input {
+                width: 100%;
+                padding-left: 15px;
+                font-size: 11px;
+            }
+        }
+        label.error {
+            font-size: 11px;
+        }
+    }
+    .questions {
+        .feed-form_textarea {
+            input,
+            textarea {
+                width: 100%;
+            }
         }
     }
 }

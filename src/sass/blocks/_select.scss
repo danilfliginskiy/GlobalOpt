@@ -1,0 +1,16 @@
+.select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 90%;
+    padding-left: 23px;
+    font-size: 13px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    min-height: 35px;
+    margin-top: 10px;
+    background: url('../../images/modal/chevron-circle-down-solid.svg') 97% 50% no-repeat;
+    background-size: 8%;
+}

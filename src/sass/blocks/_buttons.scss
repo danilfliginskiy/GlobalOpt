@@ -11,6 +11,10 @@
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
+    &:hover {
+        box-shadow: 0 0 20px $main-color;
+        transition: all 0.5s;
+    }
     &_main {
         display: block;
         width: 230px;
@@ -32,5 +36,11 @@
         display: block;
         width: 180px;
         margin: 0 auto;
+        margin-top: 10px;
+    }
+    &_modal-form {
+        display: block;
+        min-height: 40px;
+        margin: 30px auto 0 auto;
     }
 }
