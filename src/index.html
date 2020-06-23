@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,11 +41,11 @@
             </div>
         </header>
         <!-- header -->
-        <h1 class="promo__info">
-            <h1 class="promo__title">Global Opt - логистика полного цикла из Китая в Россию</h1>
+        <div class="promo__info">
+            <div class="promo__title">Global Opt - логистика полного цикла из Китая в Россию</div>
             <div class="promo__subtitle">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</div>
             <div class="promo__descr">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</div>
-            <img src="images/promo/divider.png" class="promo__divider">
+            <img src="images/promo/divider.png" class="promo__divider" alt="divider">
             <div class="promo__wrapper">
                 <div class="promo__item">
                     <img src="images/promo/boxes-in-case.png" alt="boxes-in-case" class="promo__item-img">
@@ -201,7 +201,7 @@
 
 
         <h2 class="title">Цены на любой вариант доставки</h2>
-        <hr class="divider"></hr>
+        <hr class="divider">
         <div class="subtitle">Перевозки грузов на дальние расстояния без каких-либо ограничений. Любой груз доставим вовремя. </div>
 
 
@@ -451,13 +451,13 @@
 <section class="reviews" id="reviews">
 
         <h2 class="title">отзывы наших клиентов</h2>
-        <hr class="divider"></hr>
+        <hr class="divider">
         <div class="subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
 
         <div class="carousel">
             
             <div class="carousel__item">
-                <img src="images/reviews/woman.jpg" class="carousel__img">
+                <img src="images/reviews/woman.jpg" class="carousel__img" alt="slide-1">
                 <!-- /.carousel__img -->
                 <div class="carousel__wrapper">
                     <div class="title_black">Анисимова Ольга</div>
@@ -473,7 +473,7 @@
 
         
             <div class="carousel__item">
-                <img src="images/reviews/man-1.jpg" class="carousel__img">
+                <img src="images/reviews/man-1.jpg" class="carousel__img" alt="slide-2">
                 <!-- /.carousel__img -->
                 <div class="carousel__wrapper">
                     <div class="title_black">Данила Пимен</div>
@@ -489,7 +489,7 @@
 
         
             <div class="carousel__item">
-                <img src="images/reviews/man-2.jpg" class="carousel__img">
+                <img src="images/reviews/man-2.jpg" class="carousel__img" alt="slide-3">
                 <!-- /.carousel__img -->
                 <div class="carousel__wrapper">
                     <div class="title_black">Константин Касьян</div>
@@ -505,7 +505,7 @@
 
 
             <div class="carousel__item">
-                <img src="images/reviews/man-3.jpg" class="carousel__img">
+                <img src="images/reviews/man-3.jpg" class="carousel__img" alt="slide-4">
                 <!-- /.carousel__img -->
                 <div class="carousel__wrapper">
                     <div class="title_black">Станислав Копылов</div>
@@ -567,7 +567,7 @@
 </section>
 
 <section id="map" class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.5227560056455!2d37.18028946697764!3d55.61031913273713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5571f41a10165%3A0xefb41d3ea274567b!2z0YPQu9C40YbQsCDQmtCw0LvQuNC90LjQvdCwLCAzOSwg0JrQvtC60L7RiNC60LjQvdC-LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDMzOTA!5e0!3m2!1sru!2sru!4v1592232401096!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.5227560056455!2d37.18028946697764!3d55.61031913273713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5571f41a10165%3A0xefb41d3ea274567b!2z0YPQu9C40YbQsCDQmtCw0LvQuNC90LjQvdCwLCAzOSwg0JrQvtC60L7RiNC60LjQvdC-LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDMzOTA!5e0!3m2!1sru!2sru!4v1592232401096!5m2!1sru!2sru" width="100" height="100" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
 
 <footer class="footer" id="contacts">
@@ -650,7 +650,7 @@
             <input class="feed-form__input modal__input" name="phone" required placeholder="Введите ваш номер телефона:">
             <input class="feed-form__input modal__input" name="email" type="email" required placeholder="Введите вашу электронную почту:">
             <select required name="choice" class="select">
-                <option class="select__option" disabled selected value="Выберите путь доставки">Выберите путь доставки</option>
+                <option class="select__option" disabled selected value="">Выберите путь доставки</option>
                 <option class="select__option" value="Доставка морем">Доставка морем</option>
                 <option class="select__option" value="Ж/Д доставка">Ж/Д доставка</option>
                 <option class="select__option" value="Авто доставка">Автодоставка</option>

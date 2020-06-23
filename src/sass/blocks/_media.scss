@@ -474,7 +474,7 @@
                 transition: 0.8s all;
                 padding: 20px 15px;
                 margin: 0;
-                z-index: 10;
+                z-index: 10000000;
                 &_active{
                     left: 0;
                 }
@@ -487,10 +487,11 @@
                 font-size: 18px;
             }
             .hamburger {
-                position: absolute;
+                position: fixed;
                 top: 17px;
                 right: 10px;
                 display: block;
+                z-index: 1000000;
                 .line {
                     padding: 2.75px;
                     width: 50px;
